@@ -28,13 +28,13 @@ pelo plugin `time`) que apontam para o código em `D:\sandbox\OpenCode_Plugins\v
 
 ```ts
 // ~/.config/opencode/plugins/voice/tui.ts
-import plugin from "file:///D:/sandbox/OpenCode_Plugins/voice/src/tui.ts"
+import plugin from "file:///C:/caminho/para/opencode-plugin-voice/src/tui.ts"
 export default plugin
 ```
 
 ```ts
 // ~/.config/opencode/plugins/voice/index.ts
-import plugin from "file:///D:/sandbox/OpenCode_Plugins/voice/src/index.ts"
+import plugin from "file:///C:/caminho/para/opencode-plugin-voice/src/index.ts"
 export default plugin
 ```
 
@@ -45,7 +45,7 @@ export default plugin
 > ```jsonc
 > // ~/.config/opencode/cli.json
 > {
->   "plugins": [{ "package": "D:/sandbox/OpenCode_Plugins/voice", "options": { "language": "pt" } }]
+>   "plugins": [{ "package": "C:/caminho/para/opencode-plugin-voice", "options": { "language": "pt" } }]
 > }
 > ```
 
@@ -98,7 +98,7 @@ Não precisa apertar o atalho de novo nem colar manualmente.
 {
   "plugins": [
     {
-      "package": "D:/sandbox/OpenCode_Plugins/voice",
+      "package": "C:/caminho/para/opencode-plugin-voice",
       "options": {
         "provider": "custom",
         "baseUrl": "http://127.0.0.1:8000/v1",
