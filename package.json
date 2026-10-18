@@ -1,0 +1,24 @@
+{
+  "name": "opencode-plugin-voice",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Dictation for the OpenCode 2.0 TUI: press a key, speak, and get the transcript in your prompt (Groq Whisper, free tier).",
+  "exports": {
+    ".": "./src/index.ts",
+    "./tui": "./src/tui.ts"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@opencode/plugin": "2.0.32",
+    "@types/node": "^24.0.0",
+    "solid-js": "1.9.17",
+    "typescript": "^5.8.0"
+  }
+}
